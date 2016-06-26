@@ -1,8 +1,8 @@
-package com.smg.octopus.soap.demo;
+package com.smg.octopus.soap.demo.routes;
 
 import org.apache.camel.builder.RouteBuilder;
 
-public class MyRouteBuilder extends RouteBuilder {
+public class ServletRouteBuilder extends RouteBuilder {
 	@Override
 	public void configure() throws Exception {
 		// Access us using http://localhost:8080/camel/hello
